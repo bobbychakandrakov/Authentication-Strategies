@@ -1,0 +1,22 @@
+{
+  "name": "authenticationstrategies",
+  "description": "This is a project for creating diffrent authentication strategies using express and passport.",
+  "main": "server.js",
+  "authors": [
+    "Bobby Chakandrakov"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bobbychakandrakov/Authentication-Strategies",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7",
+    "angular-ui-router": "ui-router#^0.3.1"
+  }
+}

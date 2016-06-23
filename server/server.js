@@ -3,8 +3,12 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 
-app.get('/',function (req,res) {
-    res.send('Home page!');
+app.set('views', __dirname + '/views');
+app.set('view engine','ejs');
+
+
+app.get('*',function (req,res) {
+    res.render('index');
 });
 
 
