@@ -1,0 +1,15 @@
+{
+  "name": "authenticationstrategies",
+  "version": "1.0.0",
+  "description": "This is a project for creating diffrent authentication strategies using express and passport.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bobby Chakandrakov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "passport": "^0.3.2"
+  }
+}
