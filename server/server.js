@@ -8,7 +8,7 @@ var auth = require('./config/auth');
 
 require('./config/mongoose')(config);
 require('./config/express')(app, config);
-
+require('./config/passport')();
 
 app.post('/login',auth.login);
 app.post('/register',controllers.users.createUser);
